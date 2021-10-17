@@ -1,25 +1,19 @@
-{'_id': {'$oid': '616b5a51ddda9ea85509b202'}, 'course_id': '1', 'course_name': 'COMP SCI 577', 'credits': '4'}
-{'_id': {'$oid': '616b5b453b03ad40c41b4eb6'}, 'course_id': '2', 'course_name': 'COMP SCI 252', 'credits': '3'}
-{'_id': {'$oid': '616b5b923b03ad40c41b4eb7'}, 'course_id': '3', 'course_name': 'COMP SCI 570', 'credits': '4'}
-{'_id': {'$oid': '616b5bd13b03ad40c41b4eb8'}, 'course_id': '4', 'course_name': 'COMP SCI 403', 'credits': '1'}
 {'_id': {'$oid': '616b5e12ecb4acdcb9d48952'}, 'course_id': '5', 'course_name': 'COMP SCI 200', 'credits': '3'}
-{'_id': {'$oid': '616b5e8decb4acdcb9d48953'}, 'course_id': '6', 'course_name': 'COMP SCI 300', 'credits': '3'}
-{'_id': {'$oid': '616b5edfecb4acdcb9d48954'}, 'course_id': '7', 'course_name': 'COMP SCI 403', 'credits': '1'}
 {'_id': {'$oid': '616b5f42ecb4acdcb9d48955'}, 'course_id': '8', 'course_name': 'COMP SCI 750', 'credits': '3'}
 {'_id': {'$oid': '616b5fbfecb4acdcb9d48956'}, 'course_id': '9', 'course_name': 'MATH 341', 'credits': '3'}
+{'_id': {'$oid': '616b5e8decb4acdcb9d48953'}, 'course_id': '6', 'course_name': 'COMP SCI 300', 'credits': '3'}
 {'_id': {'$oid': '616b6022ecb4acdcb9d48957'}, 'course_id': '10', 'course_name': 'MATH 234', 'credits': '4'}
 {'_id': {'$oid': '616b65d59250f36801adcbd3'}, 'course_id': '11', 'course_name': 'MATH 521', 'credits': '3'}
-{'_id': {'$oid': '616b8bfffee441e9c3470c54'}, 'course_id': '12', 'course_name': 'MATH 542', 'credits': '3'}
+{'_id': {'$oid': '616b5bd13b03ad40c41b4eb8'}, 'course_id': '4', 'course_name': 'COMP SCI 403', 'credits': '1'}
 {'_id': {'$oid': '616b8c68fee441e9c3470c55'}, 'course_id': '13', 'course_name': 'MATH 320', 'credits': '3'}
-{'_id': {'$oid': '616b8c8afee441e9c3470c56'}, 'course_id': '14', 'course_name': 'MATH 320', 'credits': '3'}
-{'_id': {'$oid': '616b8ca9fee441e9c3470c57'}, 'course_id': '15', 'course_name': 'MATH 211', 'credits': '5'}
 {'_id': {'$oid': '616b8cedfee441e9c3470c58'}, 'course_id': '16', 'course_name': 'MATH 632', 'credits': '3'}
-{'_id': {'$oid': '616b8d1bfee441e9c3470c59'}, 'course_id': '17', 'course_name': 'STAT 641', 'credits': '3'}
-{'_id': {'$oid': '616b8d41fee441e9c3470c5a'}, 'course_id': '18', 'course_name': 'STAT 309', 'credits': '3'}
-{'_id': {'$oid': '616b8d5cfee441e9c3470c5b'}, 'course_id': '19', 'course_name': 'STAT 431', 'credits': '3'}
+{'_id': {'$oid': '616b5edfecb4acdcb9d48954'}, 'course_id': '7', 'course_name': 'COMP SCI 403', 'credits': '1'}
 {'_id': {'$oid': '616b8d76fee441e9c3470c5c'}, 'course_id': '20', 'course_name': 'STAT 240', 'credits': '4'}
-{'_id': {'$oid': '616b8e36fee441e9c3470c5d'}, 'course_id': '21', 'course_name': 'GEN BUS 302', 'credits': '3'}
 {'_id': {'$oid': '616b8e8ffee441e9c3470c60'}, 'course_id': '22', 'course_name': 'GEN BUS 320', 'credits': '3'}
-{'_id': {'$oid': '616b8fe4fee441e9c3470c62'}, 'course_id': '23', 'course_name': 'GEN BUS 307', 'credits': '3'}
-{'_id': {'$oid': '616b90b4fee441e9c3470c63'}, 'course_id': '24', 'course_name': 'JOURN 401', 'credits': '4'}
 {'_id': {'$oid': '616b90e4fee441e9c3470c65'}, 'course_id': '25', 'course_name': 'JOURN 350', 'credits': '3'}
+{'_id': {'$oid': '616b8bfffee441e9c3470c54'}, 'course_id': '12', 'course_name': 'MATH 542', 'credits': '3'}
+{'_id': {'$oid': '616b8fe4fee441e9c3470c62'}, 'course_id': '23', 'course_name': 'GEN BUS 307', 'credits': '3'}
+{'_id': {'$oid': '616b8d41fee441e9c3470c5a'}, 'course_id': '18', 'course_name': 'STAT 309', 'credits': '3'}
+{'_id': {'$oid': '616b8c8afee441e9c3470c56'}, 'course_id': '14', 'course_name': 'MATH 320', 'credits': '3'}
+{'_id': {'$oid': '616b8d5cfee441e9c3470c5b'}, 'course_id': '19', 'course_name': 'STAT 431', 'credits': '3'}
+{'_id': {'$oid': '616b90b4fee441e9c3470c63'}, 'course_id': '24', 'course_name': 'JOURN 401', 'credits': '4'}
