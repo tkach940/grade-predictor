@@ -58,24 +58,6 @@ def data():
             outfile.write(str(json_line))
             outfile.write("\n")
 
-    return str(student_cache["Course"])
-
-    """
-    list = db.list_collection_names()
-    for coll in list:
-        collection = db[coll]
-        with open("./tmp/" + coll + ".json", "w") as outfile:
-            for doc in collection.find():
-                json_line = json.loads(json_util.dumps(doc))
-                if json_line.get("student_id")==wanted_student_id or json_line.get("name")==name:
-                    if student_cache.get(coll) is None:
-                        student_cache[coll] = []
-                    if coll == "StudentCourse":
-                        student_cache = get_class(json_line.get("course_id"), course_id, db)
-                    student_cache[coll].append(json_line)
-                outfile.write(str(json_line))
-                outfile.write("\n")
-    """
     return str(student_cache)
 
 def get_class(student_cache, course_id, db):
