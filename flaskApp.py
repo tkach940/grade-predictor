@@ -60,11 +60,5 @@ def data():
 
     return str(student_cache)
 
-def get_class(student_cache, course_id, db):
-    if student_cache.get("Course") is None:
-        student_cache["Course"] = dict()
-    student_cache["Course"][course_id] = db["Course"].find_one({"course_id": course_id})
-    return student_cache
-
 if __name__ == "__main__":
     app.run()
