@@ -1,0 +1,10 @@
+{'_id': {'$oid': '616b5c383b03ad40c41b4eb9'}, 'student_id': '1', 'name': 'Ivan Khurudzhi', 'major_list': ['Computer Science', 'Mathematics'], 'past_terms': ['f19', 's20', 'f20', 's21'], 'curr_courses': ['1', '2', '3', '4']}
+{'_id': {'$oid': '616b6100ecb4acdcb9d48958'}, 'student_id': '2', 'name': 'Matvey Tkachev', 'major_list': ['Computer Science', 'Mathematics'], 'curr_courses': ['1', '2', '3', '4'], 'past_terms': ['f18', 's19', 'f19', 's20', 'f20', 's21']}
+{'_id': {'$oid': '616b646d7b0014cebf4a3ff2'}, 'student_id': '3', 'name': 'Ekaterina Arshinova', 'major_list': ['Comp Sci', 'Math'], 'curr_courses': ['2', '3', '4', '5'], 'past_terms': ['s21', 'f20', 's20', 'f19']}
+{'_id': {'$oid': '616b8ae20a4da1bf7668d68f'}, 'student_id': '5', 'name': 'John Lean', 'major_list': ['Business'], 'past_terms': ['s21', 'f20'], 'curr_courses': ['5', '6', '7']}
+{'_id': {'$oid': '616b8be40a4da1bf7668d690'}, 'student_id': '6', 'name': 'Grant Ovsepyan', 'major_list': ['Chem Eng'], 'past_terms': ['s21', 'f20', 's20', 'f19', 's19', 'f18'], 'curr_courses': ['2', '8', '9']}
+{'_id': {'$oid': '616b8c8c0a4da1bf7668d691'}, 'student_id': '7', 'name': 'Vladimir Petrov', 'major_list': ['English'], 'past_terms': ['s21', 'f20', 's20'], 'curr_courses': ['10', '11', '12']}
+{'_id': {'$oid': '616b8d3f0a4da1bf7668d692'}, 'student_id': '9', 'name': 'Andrew Moltz', 'major_list': ['Math'], 'curr_courses': ['6', '8', '10'], 'past_terms': ['s21']}
+{'_id': {'$oid': '616b8e490a4da1bf7668d693'}, 'student_id': '4', 'name': 'Ilya Varlamov', 'major_list': ['Journ'], 'curr_courses': ['1', '2', '5'], 'past_terms': ['s21', 'f20', 's20']}
+{'_id': {'$oid': '616b8eb20a4da1bf7668d694'}, 'student_id': '8', 'name': 'Oliver Bree', 'major_list': ['Stat'], 'past_terms': ['s20', 'f20'], 'curr_courses': ['15', '17', '20']}
+{'_id': {'$oid': '616b8f590a4da1bf7668d695'}, 'student_id': '10', 'name': 'Jack Miller', 'major_list': ['Comp Sci'], 'past_terms': ['s21', 'f20', 's20', 'f19'], 'curr_courses': ['23', '22', '20', '18']}

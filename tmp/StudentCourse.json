@@ -1,0 +1,2 @@
+{'_id': {'$oid': '616b5d143b03ad40c41b4eba'}, 'student_id': '1', 'course_id': '5', 'performance': '92', 'term_id': 's20'}
+{'_id': {'$oid': '616b61f0ecb4acdcb9d48959'}, 'student_id': '2', 'course_id': '5', 'performance': '86', 'term_id': 's21'}
