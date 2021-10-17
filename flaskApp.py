@@ -66,6 +66,8 @@ def data():
                 continue
             instance = db["Course"].find_one({"course_id": str(course_id)})
             json_line = json.loads(json_util.dumps(instance))
+            if json_line is None:
+                continue
             student_cache["Course"][course_id] = json_line
             outfile.write(str(json_line))
             outfile.write("\n")
@@ -78,9 +80,9 @@ def data():
     sc_list = student_cache["StudentCourse"]
     course = curr_course_instance
 
+    #return create_train_data(stud_list, course_list, sc_list, course)
     X_train, y_train = create_train_data(stud_list, course_list, sc_list, course)
-
-    return str(predict_grade(X_train, y_train))
+    return str(predict_grade(X_train, y_train)[0]) + "%"
 
 def construct_season():
     today = date.today()
@@ -122,17 +124,18 @@ def create_train_data(stud_list, course_list, sc_list, course):
     i = 0
     s = ""
     for sc in sc_list:
-        X1 = 4/(abs(subtract_seasons(current_term, sc['term_id'])))
+        X1 = 5/(abs(subtract_seasons(current_term, sc['term_id'])))
 
         iter_course_name = course_list.get(sc.get('course_id')).get("course_name")
-        subjectMatch = 3 if course_subject == form.match(iter_course_name).groups()[0].strip().lower() else 0
-        numMatch = 2/(math.ceil(abs(int(course_no) - int(form.match(iter_course_name).groups()[1]))/100))
+        subjectMatch = 6 if course_subject == form.match(iter_course_name).groups()[0].strip().lower() else 0
+
+        numMatch = 4/(math.ceil(abs(int(course_no) - int(form.match(iter_course_name).groups()[1]))/100))
 
         X2 = subjectMatch + numMatch
 
-        X3 = 2 if course_subject in major_list else 0
+        X3 = 5 if course_subject in major_list else 0
 
-        X4 = 1/(abs(int(course_credits) - int(course_list.get(sc.get('course_id')).get('credits'))) + 1)
+        X4 = 2/(abs(int(course_credits) - int(course_list.get(sc.get('course_id')).get('credits'))) + 1)
 
         y = round(int(sc['performance'])/10)*10
 
@@ -147,7 +150,7 @@ def create_train_data(stud_list, course_list, sc_list, course):
     return X_train, y_train
 
 def predict_grade(X_train, y_train):
-    X_test = np.array([[5, 5, 2, 1]])
+    X_test = np.array([[5, 10, 5, 2]])
 
     logreg = LogisticRegression(multi_class='multinomial', solver='lbfgs')
 
