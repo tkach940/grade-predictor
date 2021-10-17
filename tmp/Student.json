@@ -1,1 +1,1 @@
-{'_id': {'$oid': '616bd30a0a4da1bf7668d6cd'}, 'student_id': '13', 'name': 'Kathy Konshina', 'curr_courses': ['1', '2'], 'major_list': ['Comp Sci'], 'past_terms': ['s21', 'f20']}
+{'_id': {'$oid': '616b8f590a4da1bf7668d695'}, 'student_id': '10', 'name': 'Jack Miller', 'major_list': ['COMP SCI'], 'past_terms': ['s21', 'f20', 's20', 'f19'], 'curr_courses': ['23', '22', '20', '18']}

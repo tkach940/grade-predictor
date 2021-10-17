@@ -1,4 +1,9 @@
-{'_id': {'$oid': '616bd3c30a4da1bf7668d6cf'}, 'student_id': '13', 'course_id': '8', 'performance': '60', 'term_id': 's21'}
-{'_id': {'$oid': '616bd3fb0a4da1bf7668d6d0'}, 'student_id': '13', 'course_id': '10', 'term_id': 's21', 'performance': '70'}
-{'_id': {'$oid': '616bd4260a4da1bf7668d6d1'}, 'student_id': '13', 'course_id': '24', 'term_id': 'f20', 'performance': '80'}
-{'_id': {'$oid': '616bd4530a4da1bf7668d6d2'}, 'student_id': '13', 'course_id': '25', 'performance': '90', 'term_id': 'f20'}
+{'_id': {'$oid': '616b9b78f8bb64cd1327d7bd'}, 'student_id': '10', 'performance': '78', 'term_id': 's20', 'course_id': '19'}
+{'_id': {'$oid': '616b9c5af8bb64cd1327d7be'}, 'student_id': '10', 'course_id': '6', 'performance': '85', 'term_id': 's20'}
+{'_id': {'$oid': '616b9c86f8bb64cd1327d7bf'}, 'student_id': '10', 'course_id': '7', 'performance': '91', 'term_id': 'f20'}
+{'_id': {'$oid': '616b9cc7f8bb64cd1327d7c0'}, 'student_id': '10', 'course_id': '10', 'performance': '80', 'term_id': 'f20'}
+{'_id': {'$oid': '616b9d3df8bb64cd1327d7c1'}, 'student_id': '10', 'course_id': '1', 'performance': '87', 'term_id': 's21'}
+{'_id': {'$oid': '616b9d62f8bb64cd1327d7c2'}, 'student_id': '10', 'course_id': '2', 'performance': '75', 'term_id': 's21'}
+{'_id': {'$oid': '616bc466d98b1d8d9993a194'}, 'student_id': '10', 'course_id': '3', 'performance': '78', 'term_id': 'f19'}
+{'_id': {'$oid': '616bc4a1d98b1d8d9993a195'}, 'student_id': '10', 'course_id': '8', 'performance': '79', 'term_id': 'f19'}
+{'_id': {'$oid': '616bc4b8d98b1d8d9993a196'}, 'student_id': '10', 'course_id': '15', 'performance': '87', 'term_id': 'f19'}

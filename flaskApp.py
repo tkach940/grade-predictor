@@ -122,7 +122,6 @@ def create_train_data(stud_list, course_list, sc_list, course):
     course_credits = course['credits']
 
     i = 0
-    s = ""
     for sc in sc_list:
         X1 = 5/(abs(subtract_seasons(current_term, sc['term_id'])))
 
