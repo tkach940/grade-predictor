@@ -21,3 +21,5 @@
 {'_id': {'$oid': '616b8e36fee441e9c3470c5d'}, 'course_id': '21', 'course_name': 'GEN BUS 302', 'credits': '3'}
 {'_id': {'$oid': '616b8e8ffee441e9c3470c60'}, 'course_id': '22', 'course_name': 'GEN BUS 320', 'credits': '3'}
 {'_id': {'$oid': '616b8fe4fee441e9c3470c62'}, 'course_id': '23', 'course_name': 'GEN BUS 307', 'credits': '3'}
+{'_id': {'$oid': '616b90b4fee441e9c3470c63'}, 'course_id': '24', 'course_name': 'JOURN 401', 'credits': '4'}
+{'_id': {'$oid': '616b90e4fee441e9c3470c65'}, 'course_id': '25', 'course_name': 'JOURN 350', 'credits': '3'}

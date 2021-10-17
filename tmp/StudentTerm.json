@@ -1,2 +1,26 @@
-{'_id': {'$oid': '616b5db53b03ad40c41b4ebb'}, 'term_id': 's20', 'student_id': '1', 'courses': ['5']}
-{'_id': {'$oid': '616b62fdecb4acdcb9d4895b'}, 'term_id': 's20', 'student_id': '2', 'courses': ['5']}
+{'_id': {'$oid': '616b5db53b03ad40c41b4ebb'}, 'term_id': 's20', 'student_id': '1', 'courses': ['5', '8', '9']}
+{'_id': {'$oid': '616b62fdecb4acdcb9d4895b'}, 'term_id': 'f20', 'student_id': '1', 'courses': ['6', '10', '11']}
+{'_id': {'$oid': '616b92ff0a4da1bf7668d699'}, 'term_id': 's21', 'student_id': '1', 'courses': ['4', '13', '16']}
+{'_id': {'$oid': '616b93ba0a4da1bf7668d69a'}, 'term_id': 's20', 'student_id': '2', 'courses': ['5', '6']}
+{'_id': {'$oid': '616b93f10a4da1bf7668d69b'}, 'term_id': 'f20', 'student_id': '2', 'courses': ['8', '10']}
+{'_id': {'$oid': '616b94220a4da1bf7668d69c'}, 'student_id': '2', 'term_id': 's21', 'courses': ['14', '15', '17', '7']}
+{'_id': {'$oid': '616b94640a4da1bf7668d69d'}, 'term_id': 's20', 'student_id': '3', 'courses': ['9', '1', '17']}
+{'_id': {'$oid': '616b94ca0a4da1bf7668d69e'}, 'term_id': 'f20', 'student_id': '3', 'courses': ['19', '20', '21']}
+{'_id': {'$oid': '616b951a0a4da1bf7668d6a0'}, 'term_id': 's21', 'student_id': '3', 'courses': ['22', '23']}
+{'_id': {'$oid': '616b95580a4da1bf7668d6a1'}, 'term_id': 's21', 'student_id': '5', 'courses': ['9', '17', '21']}
+{'_id': {'$oid': '616b95890a4da1bf7668d6a2'}, 'term_id': 'f20', 'student_id': '5', 'courses': ['10', '18', '23']}
+{'_id': {'$oid': '616b95cc0a4da1bf7668d6a4'}, 'term_id': 's21', 'student_id': '6', 'courses': ['5', '6', '7']}
+{'_id': {'$oid': '616b96020a4da1bf7668d6a5'}, 'term_id': 'f20', 'student_id': '6', 'courses': ['15', '20']}
+{'_id': {'$oid': '616b96520a4da1bf7668d6a6'}, 'term_id': 's20', 'student_id': '6', 'courses': ['17', '23']}
+{'_id': {'$oid': '616b96790a4da1bf7668d6a7'}, 'term_id': 's21', 'student_id': '7', 'courses': ['2', '3', '4']}
+{'_id': {'$oid': '616b96ac0a4da1bf7668d6a8'}, 'term_id': 'f20', 'student_id': '7', 'courses': ['10', '14']}
+{'_id': {'$oid': '616b96c20a4da1bf7668d6a9'}, 'term_id': 's20', 'student_id': '7', 'courses': ['19', '23']}
+{'_id': {'$oid': '616b96f20a4da1bf7668d6aa'}, 'term_id': 's21', 'student_id': '9', 'courses': ['21', '17', '15']}
+{'_id': {'$oid': '616b97740a4da1bf7668d6ab'}, 'term_id': 's21', 'student_id': '4', 'courses': ['3', '4']}
+{'_id': {'$oid': '616b97a60a4da1bf7668d6ac'}, 'term_id': 'f20', 'student_id': '4', 'courses': ['10', '13']}
+{'_id': {'$oid': '616b97cc0a4da1bf7668d6ad'}, 'term_id': 's20', 'student_id': '4', 'courses': ['16', '8', '23']}
+{'_id': {'$oid': '616b97fe0a4da1bf7668d6ae'}, 'term_id': 's20', 'student_id': '8', 'courses': ['1', '2']}
+{'_id': {'$oid': '616b984c0a4da1bf7668d6af'}, 'term_id': 'f20', 'student_id': '8', 'courses': ['9', '18']}
+{'_id': {'$oid': '616b98c20a4da1bf7668d6b1'}, 'term_id': 's21', 'student_id': '10', 'courses': ['1', '2']}
+{'_id': {'$oid': '616b99120a4da1bf7668d6b3'}, 'term_id': 'f20', 'student_id': '10', 'courses': ['7', '10']}
+{'_id': {'$oid': '616b99310a4da1bf7668d6b4'}, 'term_id': 's20', 'student_id': '10', 'courses': ['19', '6']}
